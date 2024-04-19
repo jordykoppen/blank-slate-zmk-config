@@ -14,4 +14,3 @@
 ---
 include:
   - board: lpgalaxy_blank_slate
-    shield: settings_reset
