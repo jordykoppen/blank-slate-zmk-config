@@ -47,7 +47,7 @@
  &kp TAB    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
  &mt CTLESC &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
  &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp RET
- &kp LCTRL  &kp LCTRL  &kp LALT   &kp LGUI    &mo LOWER            &kp SPACE                 &mo RAISE      &kp LEFT    &kp UP     &kp DOWN      &kp RIGHT
+ &kp LCTRL  &kp LCTRL  &kp LALT   &kp LGUI    &mo LOWER            &kp SPACE                 &mo RAISE      &kp LEFT    &kp DOWN   &kp UP      &kp RIGHT
             >;
         };
 
@@ -68,7 +68,7 @@
 &kp TILDE   &kp EXCL   &kp AT     &kp HASH    &kp DLLR       &kp PRCNT      &kp CARET        &kp AMPS       &kp STAR    &kp LPAR   &kp RPAR      &kp DEL   
 &trans      &kp F1     &kp F2     &kp F3      &kp F4         &kp F5         &kp F6           &kp UNDER      &kp PLUS    &kp LBRC   &kp RBRC      &kp PIPE
 &trans      &kp F7     &kp F8     &kp F9      &kp F10        &kp F11        &kp F12          &kp TILDE      &kp PIPE    &kp HOME   &kp END       &kp K_PP
-&trans      &trans     &trans     &trans      &trans                 &trans                  &mo ADJUST     &kp C_PREV  &kp VOLUP  &kp VOLDN     &kp C_NEXT
+&trans      &trans     &trans     &trans      &trans                 &trans                  &mo ADJUST     &kp C_PREV  &kp VOLDN  &kp VOLUP     &kp C_NEXT
             >;
         };
 /* Raise
@@ -77,9 +77,9 @@
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | Del  | Left | Down |  Up  | Right|      |      |   -  |   =  |   [  |   ]  |  \   |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      |      |      |      |      |      |Pg Up |Pg Dn |      |
+ * |      |      |      |      |      |      |      |      |      |Pg Up |Pg Dn | Play |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      |      |             |      | Next | Vol- | Vol+ | Play |
+ * |      |      |      |      |      |             |      | Prev | Vol- | Vol+ | Next |
  * `-----------------------------------------------------------------------------------'
  */
         raise_layer {
@@ -88,7 +88,7 @@
 &kp GRAVE   &kp N1     &kp N2     &kp N3      &kp N4         &kp N5         &kp N6           &kp N7         &kp N8      &kp N9     &kp N0        &kp DEL
 &trans      &kp LEFT   &kp DOWN   &kp UP      &kp RIGHT      &trans         &trans           &kp MINUS      &kp EQUAL   &kp LBKT   &kp RBKT      &kp BSLH
 &trans      &trans     &trans     &trans      &trans         &trans         &trans           &trans         &trans      &kp PG_UP  &kp PG_DN     &trans
-&trans      &trans     &trans     &trans      &mo ADJUST             &trans                  &trans         &kp C_NEXT  &kp VOLD   &kp VOLU      &kp K_PP
+&trans      &trans     &trans     &trans      &mo ADJUST             &trans                  &trans         &kp C_PREV  &kp VOLDN  &kp VOLUP     &kp C_NEXT
             >;
         };
 
