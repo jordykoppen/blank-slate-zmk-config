@@ -86,7 +86,7 @@
             label = "Raise";
             bindings = <
 &kp GRAVE   &kp N1     &kp N2     &kp N3      &kp N4         &kp N5         &kp N6           &kp N7         &kp N8      &kp N9     &kp N0        &kp DEL
-&trans      &kp LEFT   &kp DOWN   &kp UP      &kp RIGHT      &trans         &trans           &kp MINS       &kp EQL     &kp LBRC   &kp RBRC      &kp BSLH
+&trans      &kp LEFT   &kp DOWN   &kp UP      &kp RIGHT      &trans         &trans           &kp MINUS      &kp EQUAL   &kp LBKT   &kp RBKT      &kp BSLH
 &trans      &trans     &trans     &trans      &trans         &trans         &trans           &trans         &trans      &kp PG_UP  &kp PG_DN     &trans
 &trans      &trans     &trans     &trans      &mo ADJUST             &trans                  &trans         &kp C_NEXT  &kp VOLD   &kp VOLU      &kp K_PP
             >;
